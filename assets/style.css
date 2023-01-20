@@ -23,6 +23,61 @@ header img{
   
 }
 
+form{
+  padding:10px;
+  margin-bottom: 10px;
+}
+
+form {
+  margin: auto;
+  width: 900px;
+
+}
+
+div+div {
+  margin-top: 1em;
+}
+
+label span {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+}
+
+input, textarea {
+  font: 1em sans-serif;
+  width: 250px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input[type=checkbox], input[type=radio] {
+  width: auto;
+  border: none;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 10em;
+  resize: vertical;
+}
+
+fieldset {    
+  
+  margin: 0px 15%;
+ 
+  border: 1px solid rgb(255, 255, 255);
+}
+
+
+select#game{
+  margin-top: 10px;
+}
+
 main#main2{
   background-color:goldenrod;
 }
