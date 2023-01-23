@@ -53,7 +53,7 @@ input, textarea {
 
 input[type=checkbox], input[type=radio] {
   width: auto;
-  border: none;
+
 }
 
 input:focus, textarea:focus {
@@ -176,8 +176,51 @@ footer {
   color: aliceblue;
 }
 
-footer p {
+footer .top{
+  padding-top: 10px;
   padding-left: 10px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+}
+
+footer .mid{
+
+  padding-left: 10px;
+}
+
+footer .bot{
+  padding-left:10px;
+  padding-bottom: 10px;
+}
+
+#lastplore{
+
+  padding-bottom: 10px;
+}
+
+table{
+  color:black;
+  border:2px solid black;
+  margin: 0 auto;
+
+}
+
+#mainchar{
+
+  padding-bottom: 30px;
+  color: black;
+  background-color: goldenrod;
+}
+td{
+  border-right:1px solid ;
+  
+}
+
+#rec{
+  text-decoration: underline;
+  text-underline-position: under;
+
+}
+
+#notrec{
+  text-decoration: underline;
+  text-underline-position: under;
 }
