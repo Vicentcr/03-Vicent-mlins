@@ -1,0 +1,253 @@
+/* || General setup */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-image: url(/assets/dark_souls_3_bg.jpg);
+}
+
+body {
+  width: 70%;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+/* || typography */
+
+header img{
+  display:flex;
+  
+}
+
+form{
+  padding:10px;
+  margin-bottom: 10px;
+}
+
+form {
+  margin: auto;
+  width: 900px;
+
+}
+
+ figure > img{
+
+  display: flex;
+}
+
+iframe{
+ 
+  width: 970px;
+}
+
+figcaption{
+  padding-top: 5px;
+  font-size: 10px;
+}
+
+div+div {
+  margin-top: 1em;
+}
+
+label span {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+}
+
+input, textarea {
+  font: 1em sans-serif;
+  width: 250px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input[type=checkbox], input[type=radio] {
+  width: auto;
+
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 10em;
+  resize: vertical;
+}
+
+fieldset {    
+  
+  margin: 0px 15%;
+ 
+  border: 1px solid rgb(255, 255, 255);
+}
+
+
+select#game{
+  margin-top: 10px;
+}
+
+main#main2{
+  background-color:goldenrod;
+}
+
+main#main2 p#lastp{
+
+  padding-bottom: 10px;
+
+}
+
+
+h2 {
+  text-align: left;
+  padding-top: 10px;
+
+}
+
+
+/* || header layout */
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+
+body {
+  background-color: rgb(0, 0, 0);
+
+}
+
+
+header nav ul li a {
+
+  color: antiquewhite;
+
+}
+
+article {
+  flex: 4;
+  background-color: goldenrod;
+}
+
+
+
+h1 {
+  flex: 5;
+  text-align: center;
+  padding-top:15px;
+}
+
+
+nav {
+  height: 50px;
+  flex: 100%;
+  display: flex;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+  justify-content: flex-start;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+nav a,
+nav span {
+
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+iframe{
+  margin-left:30px;
+
+}
+
+main{
+  background-color: goldenrod;
+}
+
+main h2 {
+  padding-left: 10px;
+  
+}
+
+main p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+aside {
+  display: flex;
+}
+
+footer {
+  color: aliceblue;
+  background-color: #000;
+}
+
+footer .top{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+footer .mid{
+
+  padding-left: 10px;
+}
+
+footer .bot{
+  padding-bottom: 10px;
+}
+footer p{
+  padding-left: 10px;
+}
+
+#lastplore{
+
+  padding-bottom: 10px;
+}
+
+table{
+  color:black;
+  border:2px solid black;
+  margin: 0 auto;
+
+}
+
+#mainchar{
+
+  padding-bottom: 30px;
+  color: black;
+  background-color: goldenrod;
+}
+td{
+  border-right:1px solid ;
+  
+}
+
+#rec{
+  text-decoration: underline;
+  text-underline-position: under;
+
+}
+
+#notrec{
+  text-decoration: underline;
+  text-underline-position: under;
+}
