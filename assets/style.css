@@ -12,6 +12,10 @@ html {
 
 }
 
+p {
+  font-family: 'Red Hat Mono', monospace;
+}
+
 body {
   width: 70%;
   min-width: 800px;
@@ -93,7 +97,6 @@ main#main2 p#lastp {
 
 }
 
-
 h2 {
   text-align: left;
   padding-top: 10px;
@@ -164,9 +167,17 @@ nav span {
   text-decoration: none;
 }
 
-iframe {
-  margin-left: 30px;
 
+.responsive {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  display: flex;
+  width: 40%;
+}
+
+iframe {
+  margin-left: 14px;
+  width: 1000px;
 }
 
 main {
@@ -189,31 +200,29 @@ main aside {
 }
 
 main p {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
   text-align: justify;
   padding-top: 40px;
   word-spacing: 3px;
 }
 
-#rec{
+#rec {
   border-bottom: 2px solid black;
   border-right: none;
 }
 
-#notrec{
+#notrec {
   border-right: none;
   padding-right: 10px;
 }
 
-#rec,#notrec{
+#rec,
+#notrec {
   border-right: 2px solid black;
 
 }
 
-#tdknight{
-  
-}
 
 ol li {
   padding-right: 10px;
@@ -254,13 +263,21 @@ table {
 }
 
 
-.last{
+
+aside p {
+  display: flex;
+
+}
+
+.last {
   border: none;
 
 }
 
-td{
+td {
   text-align: center;
+  font-family: 'Red Hat Mono', monospace;
+
 }
 
 #mainchar {
@@ -284,4 +301,9 @@ td {
 #notrec {
   text-decoration: underline;
   text-underline-position: under;
+}
+
+
+ol li {
+  font-family: 'Red Hat Mono', monospace;
 }
