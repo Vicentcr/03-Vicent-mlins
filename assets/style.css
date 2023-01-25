@@ -7,7 +7,9 @@ body {
 }
 
 html {
-  background-color: #b4b4b4;
+  background-image: url(/assets/dark_souls_3_bg.jpg);
+  background-size: cover;
+
 }
 
 body {
@@ -18,13 +20,13 @@ body {
 
 /* || typography */
 
-header img{
-  display:flex;
-  
+header img {
+  display: flex;
+
 }
 
-form{
-  padding:10px;
+form {
+  padding: 10px;
   margin-bottom: 10px;
 }
 
@@ -44,19 +46,22 @@ label span {
   text-align: right;
 }
 
-input, textarea {
+input,
+textarea {
   font: 1em sans-serif;
   width: 250px;
   box-sizing: border-box;
   border: 1px solid #999;
 }
 
-input[type=checkbox], input[type=radio] {
+input[type=checkbox],
+input[type=radio] {
   width: auto;
 
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   border-color: #000;
 }
 
@@ -66,23 +71,23 @@ textarea {
   resize: vertical;
 }
 
-fieldset {    
-  
+fieldset {
+
   margin: 0px 15%;
- 
+
   border: 1px solid rgb(255, 255, 255);
 }
 
 
-select#game{
+select#game {
   margin-top: 10px;
 }
 
-main#main2{
-  background-color:goldenrod;
+main#main2 {
+  background-color: goldenrod;
 }
 
-main#main2 p#lastp{
+main#main2 p#lastp {
 
   padding-bottom: 10px;
 
@@ -101,6 +106,7 @@ h2 {
 header {
   display: flex;
   flex-flow: row wrap;
+  margin-top: 30px;
 }
 
 
@@ -126,7 +132,7 @@ article {
 h1 {
   flex: 5;
   text-align: center;
-  padding-top:15px;
+  padding-top: 15px;
 }
 
 
@@ -158,27 +164,59 @@ nav span {
   text-decoration: none;
 }
 
-iframe{
-  margin-left:30px;
+iframe {
+  margin-left: 30px;
 
 }
 
-main{
+main {
   background-color: goldenrod;
 }
 
 main h2 {
   padding-left: 10px;
-  
+
+}
+
+
+main aside {
+  float: right;
+
+}
+
+.fmp {
+  padding-bottom: 50px;
 }
 
 main p {
-  padding-left: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+  padding-top: 40px;
+  word-spacing: 3px;
+}
+
+#rec{
+  border-bottom: 2px solid black;
+  border-right: none;
+}
+
+#notrec{
+  border-right: none;
   padding-right: 10px;
 }
 
-aside {
-  display: flex;
+#rec,#notrec{
+  border-right: 2px solid black;
+
+}
+
+#tdknight{
+  
+}
+
+ol li {
+  padding-right: 10px;
 }
 
 footer {
@@ -186,53 +224,64 @@ footer {
   background-color: #000;
 }
 
-footer .top{
+footer .top {
   padding-top: 10px;
   padding-left: 10px;
 }
 
-footer .mid{
+footer .mid {
 
   padding-left: 10px;
 }
 
-footer .bot{
+footer .bot {
+  padding-bottom: 20px;
+}
+
+footer p {
+  padding-left: 20px;
+}
+
+#lastplore {
+
   padding-bottom: 10px;
 }
-footer p{
-  padding-left: 10px;
-}
 
-#lastplore{
-
-  padding-bottom: 10px;
-}
-
-table{
-  color:black;
-  border:2px solid black;
+table {
+  color: black;
+  border: 2px solid black;
   margin: 0 auto;
+}
+
+
+.last{
+  border: none;
 
 }
 
-#mainchar{
+td{
+  text-align: center;
+}
+
+#mainchar {
 
   padding-bottom: 30px;
   color: black;
   background-color: goldenrod;
 }
-td{
-  border-right:1px solid ;
-  
+
+td {
+  border-right: 1px solid;
+
 }
 
-#rec{
+#rec {
   text-decoration: underline;
   text-underline-position: under;
 
 }
 
-#notrec{
+#notrec {
   text-decoration: underline;
   text-underline-position: under;
 }
