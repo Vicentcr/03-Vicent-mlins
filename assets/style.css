@@ -12,8 +12,16 @@ html {
 
 }
 
+figcaption{
+
+  padding-left: 40px;
+  padding-bottom: 10px;
+}
+
 p {
   font-family: 'Red Hat Mono', monospace;
+  width: 40%;
+  
 }
 
 body {
@@ -169,15 +177,17 @@ nav span {
 
 
 .responsive {
+  
   padding-bottom: 10px;
   padding-left: 10px;
   display: flex;
   width: 40%;
+  border-radius: 15%;
 }
 
 iframe {
-  margin-left: 14px;
-  width: 1000px;
+  margin-left:60px;
+  width: 90%;
 }
 
 main {
@@ -252,7 +262,6 @@ footer p {
 }
 
 #lastplore {
-
   padding-bottom: 10px;
 }
 
