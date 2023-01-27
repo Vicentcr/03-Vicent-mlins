@@ -1,4 +1,93 @@
 /* || General setup */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Container */
+.container-fluid {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+/* Flex Grid */
+
+.row { 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.col-1 {
+  flex: 0 0 auto;
+  width: 8.33333333%;
+}
+
+.col-2 {
+  flex: 0 0 auto;
+  width: 16.66666667%;
+}
+
+.col-3 {
+  flex: 0 0 auto;
+  width: 25%;
+}
+
+.col-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+
+.col-5 {
+  flex: 0 0 auto;
+  width: 41.66666667%;
+}
+
+.col-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.col-7 {
+  flex: 0 0 auto;
+  width: 58.33333333%;
+}
+
+.col-8 {
+  flex: 0 0 auto;
+  width: 66.66666667%;
+}
+
+.col-9 {
+  flex: 0 0 auto;
+  width: 75%;
+}
+
+.col-10 {
+  flex: 0 0 auto;
+  width: 83.33333333%;
+}
+
+.col-11 {
+  flex: 0 0 auto;
+  width: 91.66666667%;
+}
+
+.col-12 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
 
 html,
 body {
@@ -12,7 +101,12 @@ html {
 
 }
 
-figcaption{
+figure{
+
+  padding-left: 80px;
+}
+
+figcaption {
 
   padding-left: 40px;
   padding-bottom: 10px;
@@ -21,7 +115,7 @@ figcaption{
 p {
   font-family: 'Red Hat Mono', monospace;
   width: 40%;
-  
+
 }
 
 body {
@@ -56,6 +150,9 @@ label span {
   display: inline-block;
   width: 120px;
   text-align: right;
+}
+label{
+  padding-left: 10px;
 }
 
 input,
@@ -112,19 +209,18 @@ h2 {
 }
 
 
+
 /* || header layout */
 
 header {
   display: flex;
   flex-flow: row wrap;
   margin-top: 30px;
+  background-color: #000;
 }
 
 
-body {
-  background-color: rgb(0, 0, 0);
 
-}
 
 
 header nav ul li a {
@@ -146,7 +242,10 @@ h1 {
   padding-top: 15px;
 }
 
-
+h1 a{
+  color:aliceblue;
+  text-decoration:none;
+}
 nav {
   height: 50px;
   flex: 100%;
@@ -177,28 +276,29 @@ nav span {
 
 
 .responsive {
-  
+
   padding-bottom: 10px;
-  padding-left: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
   display: flex;
   width: 40%;
-  border-radius: 15%;
-}
+  }
 
 iframe {
-  margin-left:60px;
+  margin-left: 60px;
   width: 90%;
 }
 
 main {
   background-color: goldenrod;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 main h2 {
   padding-left: 10px;
 
 }
-
 
 main aside {
   float: right;
@@ -233,9 +333,20 @@ main p {
 
 }
 
+a:hover {
+
+  color: goldenrod;
+
+}
+
+ol{
+  margin-left: 35px;
+}
 
 ol li {
-  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-right: 300px;
+  
 }
 
 footer {
@@ -243,19 +354,15 @@ footer {
   background-color: #000;
 }
 
-footer .top {
+.toppfooter{
   padding-top: 10px;
-  padding-left: 10px;
 }
 
-footer .mid {
+.bot{
 
-  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
-footer .bot {
-  padding-bottom: 20px;
-}
 
 footer p {
   padding-left: 20px;
@@ -271,13 +378,36 @@ table {
   margin: 0 auto;
 }
 
-
-
-aside p {
-  display: flex;
-
+#topplore,
+#midplore,
+#lastplore {
+  margin: auto;
+  border: 2px dotted black;
 }
 
+#topplore {
+
+  padding-bottom: 30px
+}
+
+#midplore {
+  padding-bottom: 30px;
+}
+
+#lastplore {
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+}
+
+aside p {
+
+  padding-bottom: 10px;
+  width: auto;
+}
+
+.pgalery{
+  width: auto;
+}
 .last {
   border: none;
 
