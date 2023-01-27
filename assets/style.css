@@ -102,7 +102,7 @@ html {
 }
 
 figure{
-
+  
   padding-left: 80px;
 }
 
@@ -275,13 +275,14 @@ nav span {
 }
 
 
+
 .responsive {
 
   padding-bottom: 10px;
   padding-left: 20px;
   padding-top: 20px;
   display: flex;
-  width: 40%;
+  width: 80%;
   }
 
 iframe {
@@ -295,12 +296,18 @@ main {
   margin-bottom: 10px;
 }
 
+.mainlore{
+
+  padding-bottom: 10px;
+}
+
 main h2 {
   padding-left: 10px;
 
 }
 
 main aside {
+  width: 60%;
   float: right;
 
 }
@@ -346,6 +353,7 @@ ol{
 ol li {
   padding-bottom: 5px;
   padding-right: 300px;
+  margin-left: 30px;
   
 }
 
@@ -382,16 +390,18 @@ table {
 #midplore,
 #lastplore {
   margin: auto;
-  border: 2px dotted black;
+  border: 5px dotted black;
 }
 
 #topplore {
 
-  padding-bottom: 30px
+  padding-bottom: 30px;
+  border-bottom: none;
 }
 
 #midplore {
   padding-bottom: 30px;
+  border-bottom: none;
 }
 
 #lastplore {
@@ -403,6 +413,11 @@ aside p {
 
   padding-bottom: 10px;
   width: auto;
+}
+.pgameplay{
+
+  margin-left: 18px;
+  padding-bottom: 20px;
 }
 
 .pgalery{
@@ -445,4 +460,5 @@ td {
 
 ol li {
   font-family: 'Red Hat Mono', monospace;
+  text-align: justify;
 }
