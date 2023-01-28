@@ -17,12 +17,12 @@
 
 /* Flex Grid */
 
-.row { 
+.row {
   display: flex;
   flex-wrap: wrap;
 }
 
-.row > * {
+.row>* {
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
@@ -101,15 +101,20 @@ html {
 
 }
 
-figure{
-  
-  padding-left: 80px;
+figure {
+
+  padding-left: 20px;
 }
 
 figcaption {
 
-  padding-left: 40px;
+  padding-left: 60px;
   padding-bottom: 10px;
+}
+
+.figcapindex{
+
+padding-left: 10px;
 }
 
 p {
@@ -128,6 +133,14 @@ body {
 
 header img {
   display: flex;
+
+}
+
+.indeximg{
+
+padding-top: 10px;
+width: 40%;
+height: 30%;
 
 }
 
@@ -151,7 +164,8 @@ label span {
   width: 120px;
   text-align: right;
 }
-label{
+
+label {
   padding-left: 10px;
 }
 
@@ -187,6 +201,10 @@ fieldset {
   border: 1px solid rgb(255, 255, 255);
 }
 
+.gameplayol{
+  padding-left: 200px;
+
+}
 
 select#game {
   margin-top: 10px;
@@ -242,10 +260,11 @@ h1 {
   padding-top: 15px;
 }
 
-h1 a{
-  color:aliceblue;
-  text-decoration:none;
+h1 a {
+  color: aliceblue;
+  text-decoration: none;
 }
+
 nav {
   height: 50px;
   flex: 100%;
@@ -283,11 +302,16 @@ nav span {
   padding-top: 20px;
   display: flex;
   width: 80%;
-  }
+
+}
 
 iframe {
+  margin-top: 20px;
   margin-left: 60px;
   width: 90%;
+  margin-bottom: 20px;
+  border: 5px solid black;
+  border-style: dashed;
 }
 
 main {
@@ -296,7 +320,9 @@ main {
   margin-bottom: 10px;
 }
 
-.mainlore{
+
+
+.mainlore {
 
   padding-bottom: 10px;
 }
@@ -346,7 +372,7 @@ a:hover {
 
 }
 
-ol{
+ol {
   margin-left: 35px;
 }
 
@@ -354,7 +380,7 @@ ol li {
   padding-bottom: 5px;
   padding-right: 300px;
   margin-left: 30px;
-  
+
 }
 
 footer {
@@ -362,11 +388,11 @@ footer {
   background-color: #000;
 }
 
-.toppfooter{
+.toppfooter {
   padding-top: 10px;
 }
 
-.bot{
+.bot {
 
   padding-bottom: 10px;
 }
@@ -414,15 +440,18 @@ aside p {
   padding-bottom: 10px;
   width: auto;
 }
-.pgameplay{
 
-  margin-left: 18px;
+.pgameplay {
+
+  margin-left: 225px;
+  margin-right: 10px;
   padding-bottom: 20px;
 }
 
-.pgalery{
+.pgalery {
   width: auto;
 }
+
 .last {
   border: none;
 
