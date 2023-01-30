@@ -133,7 +133,7 @@ body {
 
 header img {
   display: flex;
-
+  height: 100px;
 }
 
 .indeximg {
@@ -148,7 +148,9 @@ header img {
   padding-bottom: 10px;
 
 }
-
+#articid{
+  padding-bottom: 10px;
+}
 
 form {
   margin: auto;
@@ -211,13 +213,30 @@ textarea {
   margin-top: 10px;
 }
 
-#tel{
-  margin-left: 44px;
-}
+
 
 #nom{
-  margin-left: 65px;
+  margin-left: 37px;
+}
 
+#tel{
+  margin-left: 8px;
+}
+
+#none{
+  margin-left: 59px;
+}
+
+#all{
+margin-left: 80px;
+}
+
+#exp{
+  margin-left: 22px;
+}
+
+#vet{
+  margin-left: 73px;
 }
 
 #game, #send, #reset{
